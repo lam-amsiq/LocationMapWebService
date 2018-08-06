@@ -13,7 +13,7 @@ import java.util.ResourceBundle;
 
 import com.lam.locationmapwebservice.db.data.IDBCalls;
 
-public abstract class DBCommSuper implements IDBCalls {
+public abstract class DBCommSuper {
     private static final int INTEGER_NULL = -1;
     private static final int INTEGER_NEG_1_OVERRIDE = Integer.MIN_VALUE;
 	

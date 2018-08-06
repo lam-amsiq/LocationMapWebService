@@ -6,10 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import com.lam.locationmapwebservice.db.data.IDBCalls;
 import com.lam.locationmapwebservice.models.Annotation;
 import com.lam.locationmapwebservice.models.AnnotationMeta;
 
-public class DBComm extends DBCommSuper {
+public class DBComm extends DBCommSuper implements IDBCalls {
     public DBComm(MySQLFactory dbComm) {
         super(dbComm);
     }
